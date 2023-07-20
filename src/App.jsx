@@ -19,12 +19,12 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/oinaCV" element={<Mainpage />} />
-          <Route path="/oinaCV/about" element={<About />} />
-          <Route path="/oinaCV/biomaskProject" element={<BiomaskProject />} />
-          <Route path="/oinaCV/teammateProject" element={<TeammateProject />} />
-          <Route path="/oinaCV/divereporterProject" element={<DivereporterProject />} />
-          <Route path="/oinaCV/quizerriaProject" element={<QuizerriaProject />} />
+          <Route path="/oina_portfolio" element={<Mainpage />} />
+          <Route path="/oina_portfolio/about" element={<About />} />
+          <Route path="/oina_portfolio/biomaskProject" element={<BiomaskProject />} />
+          <Route path="/oina_portfolio/teammateProject" element={<TeammateProject />} />
+          <Route path="/oina_portfolio/divereporterProject" element={<DivereporterProject />} />
+          <Route path="/oina_portfolio/quizerriaProject" element={<QuizerriaProject />} />
           {/* routes and what component to render */}
         </Routes>
         <Footer/>
