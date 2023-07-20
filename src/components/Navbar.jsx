@@ -29,7 +29,7 @@ const Navbar = () => {
                 <div className="leftAlign">
                     <Link className="name" to="/oinaCV">Oina Sher</Link>
                 </div>
-                <Link to="/oinaCV/about">About</Link>
+                <Link to="/oina_portfolio/about">About</Link>
                 <Link to="https://www.linkedin.com/in/oinamo-shegozieva-48205a239/">Linkedin</Link>
                 <Link to="mailto:oina.sher@gmail.com"><MailIcon/></Link>
             </div>
