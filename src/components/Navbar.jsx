@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>
             <div className="links">
                 <div className="leftAlign">
-                    <Link className="name" to="/oinaCV">Oina Sher</Link>
+                    <Link className="name" to="/oina_portfolio">Oina Sher</Link>
                 </div>
                 <Link to="/oina_portfolio/about">About</Link>
                 <Link to="https://www.linkedin.com/in/oinamo-shegozieva-48205a239/">Linkedin</Link>
