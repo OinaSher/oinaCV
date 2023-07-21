@@ -8,17 +8,14 @@ import "../styles/Projects.css"
 const ProjectImage = styled.img`
     width: 100%;
     height: auto;
-`
-
-const Billboard = styled.img`
-    width: 100vw;
-    height: auto;
+    margin-top: 20px;
 `
 
 const ProjectTitle = styled.h1`
     color: #000000;
   text-decoration: none;
   font-size: 20px;
+  margin-top: 40px;
 `
 
 const ProjectDescription = styled.p`
@@ -26,7 +23,8 @@ const ProjectDescription = styled.p`
   text-decoration: none;
   font-size: 20px;
   line-height: 1.6;
-  text-align: justify;
+  text-align: ${props => props.center ? "center" : "justify"};
+  margin-top: 0;
 `
 
 const ProjectButton = styled.button`
@@ -36,6 +34,12 @@ const ProjectButton = styled.button`
     border-width: 2px;
     font-size: 20px;
     padding: 20px;
+    margin-top: 20px;
+`
+
+const Billboard = styled.img`
+    width: 100vw;
+    height: auto;
 `
 
 const DivereporterProject = () => {
@@ -64,17 +68,17 @@ const DivereporterProject = () => {
                 </ProjectDescription>
             </Row>
             <Row type="flex" justify="start" gutter={16}>
-                <Col xs={24} lg={8}>
+                <Col xs={24} lg={8} align="center">
                     <ProjectTitle>Timeline:</ProjectTitle>
-                    <ProjectDescription>Two months</ProjectDescription>
+                    <ProjectDescription center>Two months</ProjectDescription>
                 </Col>
-                <Col xs={24} lg={8}>
+                <Col xs={24} lg={8} align="center">
                     <ProjectTitle>My role:</ProjectTitle>
-                    <ProjectDescription>UI/UX designer</ProjectDescription>
+                    <ProjectDescription center>UI/UX designer</ProjectDescription>
                 </Col>
-                <Col xs={24} lg={8}>
+                <Col xs={24} lg={8} align="center">
                     <ProjectTitle>Platform:</ProjectTitle>
-                    <ProjectDescription>Figma</ProjectDescription>
+                    <ProjectDescription center>Figma</ProjectDescription>
                 </Col>
             </Row>
             <Row type="flex" justify="start" gutter={16}>
